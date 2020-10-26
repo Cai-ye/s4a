@@ -1,0 +1,14 @@
+$yellow: #f8a32f;
+$red: #db222a;
+$pink: #e0276a;
+$darkRed: #90193e;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  yellow: $yellow;
+  red: $red;
+  pink: $pink;
+  darkRed: $darkRed;
+}
+
